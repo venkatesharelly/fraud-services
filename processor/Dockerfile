@@ -1,3 +1,4 @@
+## Dockerfile for the processor service
 FROM python:3.10
 WORKDIR /app
 COPY app.py .

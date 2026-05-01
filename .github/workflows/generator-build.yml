@@ -1,4 +1,4 @@
-name: CI/CD ML Service
+name: CI/CD Generator Service
 
 on:
   push:

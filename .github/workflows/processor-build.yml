@@ -49,7 +49,7 @@ jobs:
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v2
         with:
-          credentials_json: ${{ secrets.GCP_TOKEN }}
+          credentials_json: ${{ secrets.GIT_TOKEN }}
 
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2

@@ -12,11 +12,11 @@ env:
   APP: ml-service
 
 jobs:
-  sonar-analysis:
-    runs-on: ubuntu-latest
+  # sonar-analysis:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
 
       # - name: SonarQube Scan
       #   uses: SonarSource/sonarqube-scan-action@v2

@@ -33,8 +33,6 @@ jobs:
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
----
-
   build-and-push:
     # needs: sonar-analysis
     runs-on: ubuntu-latest

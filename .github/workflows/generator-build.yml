@@ -87,7 +87,7 @@ jobs:
       - name: Update values.yaml
         uses: fjogeleit/yaml-update-action@main
         with:
-          valueFile: 'fraud-helm/generator/values.yaml'
+          valueFile: 'generator/values.yaml'
           repository: venkatesharelly/fraud-helm
           token: ${{ secrets.GIT_PAT }}
           propertyPath: 'image.tag'
